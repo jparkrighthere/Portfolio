@@ -4,10 +4,10 @@ import Footer from '../Footer/Footer';
 import { PropsWithChildren } from 'react';
 
 const Layout = (props: PropsWithChildren) => {
-  return (
+return (
     <>
       <Head>
-        <div>hi</div>
+        <title>Jeonghyeon's Portfolio</title>
       </Head>
       <Header />
       {props.children}
