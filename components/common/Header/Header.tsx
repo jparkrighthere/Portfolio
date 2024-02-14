@@ -27,19 +27,19 @@ return (
             <a href={ROUTES.HOME}>Home</a>
           </li>
           <li onClick={() => setToggleMenu(!toggleMenu)}>
-            <Link href={ROUTES.ABOUT}>Intro</Link>
-          </li>
-          <li onClick={() => setToggleMenu(!toggleMenu)}>
-            <Link href={ROUTES.PROJECTS}>Projects</Link>
+            <Link href={ROUTES.ABOUT}>About</Link>
           </li>
           <li onClick={() => setToggleMenu(!toggleMenu)}>
             <Link href={ROUTES.EXPERIENCE}>Experiences</Link>
           </li>
           <li onClick={() => setToggleMenu(!toggleMenu)}>
+            <Link href={ROUTES.PROJECTS}>Projects</Link>
+          </li>
+          <li onClick={() => setToggleMenu(!toggleMenu)}>
             <Link href={ROUTES.MORE}>More</Link>
           </li>
           <li onClick={() => setToggleMenu(!toggleMenu)}>
-            <Link href={ROUTES.CONTACT}>Contact</Link>
+            <Link href={ROUTES.CONTACT}>CONTACT</Link>
           </li>
         </ul>
       </nav>
