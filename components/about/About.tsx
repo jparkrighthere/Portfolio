@@ -17,15 +17,6 @@ const About = () => {
                 className='flex flex-col w-full md:w-2/3'>
 
                 <div className='flex justify-center gap-20'>
-                    <div>
-                        <h2 className='mb-5 text-3xl text-gray-500'>EDUCATION</h2>
-                        <div className='flex flex-col gap-2 lg'>
-                            {AboutDetailData.filter(data => data.id === 'education').map((data, index) => (
-                                <AboutDetail key={index} data={data} />
-                            ))}
-                        </div>
-                    </div>
-
                     <div className='mr-10'>
                         <h2 className='mb-5 text-3xl text-gray-500'>SKILLS</h2>
                         <div className='flex flex-col gap-8 lg'>
@@ -55,3 +46,4 @@ const About = () => {
 }
 
 export default About;
+

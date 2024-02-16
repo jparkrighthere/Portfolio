@@ -1,8 +1,8 @@
 import React from 'react';
-import type { AboutData } from '../../data/aboutData';
+import type { About } from '../../data/aboutData';
 
 type Props = {
-    data: AboutData;
+    data: About;
 };
 
 const AboutDetail = ({ data }: Props) => {
