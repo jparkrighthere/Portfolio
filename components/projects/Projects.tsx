@@ -14,7 +14,7 @@ const Projects = () => {
     };
     return (
         <section
-            id='experience'
+            id='projects'
             className='container relative flex flex-col items-center justify-center h-screen gap-20'
         >
             <h3 className='absolute text-2xl tracking-widest uppercase top-5 md:top-10'>Projects</h3>

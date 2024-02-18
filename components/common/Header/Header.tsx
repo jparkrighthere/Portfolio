@@ -38,7 +38,7 @@ return (
             <Link href={ROUTES.MORE}>More</Link>
           </li> */}
           <li onClick={() => setToggleMenu(!toggleMenu)}>
-            <Link href={ROUTES.CONTACT}>CONTACT</Link>
+            <Link href={ROUTES.CONTACT}>Contact</Link>
           </li>
         </ul>
       </nav>
