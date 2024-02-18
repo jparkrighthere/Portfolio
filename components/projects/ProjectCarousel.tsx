@@ -7,11 +7,11 @@ const ProjectCarousel = ({ projects }: { projects: Project[] }) => {
   const [imageIndex, setImageIndex] = useState(0);
 
   useEffect(() => {
-    const intervalId = setInterval(() => {
-        setImageIndex((prevIndex) => (prevIndex + 1) % 3);
-    }, 2000);
+    const time = setInterval(() => {
+        setImageIndex((index) => (index + 1) % 3);
+    },  5000);
 
-    return () => clearInterval(intervalId);
+    return () => clearInterval(time);
   }, []);
 
   return (
