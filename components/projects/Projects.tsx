@@ -1,24 +1,31 @@
 import React from 'react';
 import ProjectCarousel from './ProjectCarousel';
-import { ProjectDetailData, Project } from '@/data/projectData';
+import { ProjectDetailData } from '@/data/projectData';
+import 'slick-carousel/slick/slick.css'; 
+import 'slick-carousel/slick/slick-theme.css'; 
 
 const Projects = () => {
+    const style = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    };
     return (
         <section
-        id="projects"
-        className="container relative flex flex-col items-center h-full max-w-full gap-20 py-20 mx-auto overflow-hidden justify-evenly md:flex-row"
+            id='experience'
+            className='container relative flex flex-col items-center justify-center h-screen gap-20'
         >
-            <h3 className="absolute text-2xl tracking-widest uppercase top-10 md:top-14">Projects</h3>
-            <div className="flex flex-col gap-0">
-                {ProjectDetailData.map((project: Project, index: number) => (
-                    <div key={index}>
-                        <ProjectCarousel project={project} />
-                    </div>
-                ))}
+            <h3 className='absolute text-2xl tracking-widest uppercase top-5 md:top-10'>Projects</h3>
+            <div className="w-full h-full">
+                <ProjectCarousel
+                {...style}
+                projects={ProjectDetailData} />
             </div>
         </section>
     );
 };
 
 export default Projects;
-
+    

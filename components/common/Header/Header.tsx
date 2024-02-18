@@ -35,9 +35,9 @@ return (
           <li onClick={() => setToggleMenu(!toggleMenu)}>
             <Link href={ROUTES.PROJECTS}>Projects</Link>
           </li>
-          <li onClick={() => setToggleMenu(!toggleMenu)}>
+          {/* <li onClick={() => setToggleMenu(!toggleMenu)}>
             <Link href={ROUTES.MORE}>More</Link>
-          </li>
+          </li> */}
           <li onClick={() => setToggleMenu(!toggleMenu)}>
             <Link href={ROUTES.CONTACT}>CONTACT</Link>
           </li>

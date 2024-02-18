@@ -21,7 +21,7 @@ const ExperienceBox = ({experience, index}: Props) => {
                 {experience.program}
             </a>
             ) : ( */}
-            <h2 className="text-sm font-bold md:text-lg">{experience.at}</h2>
+            <h2 className="text-sm font-bold md:text-lg text-blue-500">{experience.at}</h2>
             <p className="text-xs md:text-sm">{experience.what}</p>
         </motion.div>
     );

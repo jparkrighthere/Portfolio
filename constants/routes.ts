@@ -3,7 +3,7 @@ interface Routes {
     ABOUT: string;
     PROJECTS: string;
     EXPERIENCE: string;
-    MORE: string;
+    // MORE: string;
     CONTACT: string;
     GITHUB: string;
     EMAIL: string;
@@ -15,7 +15,7 @@ interface Routes {
     ABOUT: '/about',
     PROJECTS: '/projects',
     EXPERIENCE: '/experience',
-    MORE: '/more',
+    // MORE: '/more',
     CONTACT: '/contact',
     GITHUB: 'https://github.com/jparkrighthere',
     EMAIL: 'mailto:fishbox0923@gmail.com',
