@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
-import { ROUTES } from "../../constants/routes";
 import { KeyboardDoubleArrowDown } from "@mui/icons-material";
 
 const Home = () => {

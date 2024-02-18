@@ -2,7 +2,6 @@ import React, {useState, useEffect} from "react";
 import { Project} from "@/data/projectData";
 import Image from "next/image";
 import Carousel from "react-material-ui-carousel";
-import { StaticImageData } from 'next/image';
 
 const ProjectCarousel = ({ projects }: { projects: Project[] }) => {
   const [imageIndex, setImageIndex] = useState(0);
@@ -31,7 +30,7 @@ const ProjectCarousel = ({ projects }: { projects: Project[] }) => {
         {projects.map((project, index) => (
           <section key={index}>
             <div className="flex flex-col items-center justify-center">
-              <a href={project.url} target="_blank">
+              <a href={project.url} target="_blank" rel="noreferrer">
                   <Image alt="project_image" src={project.imgUrl[imageIndex]}
                     style={{ minHeight: "0", height: "100%", minWidth: "0", width: "100%", border:'1px solid #BBD0E9', borderRadius:'10px' }}
                     className="max-h-96 max-w-full"
@@ -48,7 +47,7 @@ const ProjectCarousel = ({ projects }: { projects: Project[] }) => {
             ))}
              <div className="my-4 text-left">
           {project.descriptions.map((description, index) => (
-            <p key={index} className="my-1 text-xs before:content-['📌'] text-gray-600 dark:text-gray-400 md:text-sm">
+            <p key={index} className="my-1 text-xs before:content-['🔍'] text-gray-600 dark:text-gray-400 md:text-sm">
               {description}
             </p>
           ))}

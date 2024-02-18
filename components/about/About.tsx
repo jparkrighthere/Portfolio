@@ -1,4 +1,4 @@
-import React, { useState, useTransition } from 'react';
+import React from 'react';
 import Image from 'next/legacy/image';
 import { motion } from 'framer-motion';
 import AboutDetail from '@/components/about/AboutDetail';
