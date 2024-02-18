@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import ROUTES from "@/constants/routes";
-import { Typewriter } from "react-simple-typewriter";
 import Link from 'next/link';
 
 
@@ -11,7 +10,7 @@ return (
     <header className="z-50 relative flex items-center js mx-auto md:sticky top-0 h-[10vh] w-4/5 justify-between md:backdrop-blur-sm md:flex-row">
       <div className="text-xl font-bold tracking-widest text-center md:text-2xl">
         <a href="/">
-          <Typewriter words={['Jeonghyeon']} />
+          <p>Jeonghyeon</p>
         </a>
       </div>
       <button className="cursor-pointer md:hidden" onClick={() => setToggleMenu(!toggleMenu)}>
