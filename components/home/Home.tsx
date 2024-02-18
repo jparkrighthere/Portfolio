@@ -16,7 +16,7 @@ const Home = () => {
                     <Typewriter words={["Hello, I'm"]} />
                 </h1>
                 <motion.h1 
-                    className="text-8xl font-bold text-blue-500"
+                    className="text-7xl font-bold text-blue-500"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 1.5 }}
