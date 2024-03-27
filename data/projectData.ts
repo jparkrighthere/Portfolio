@@ -8,6 +8,9 @@ import portfolio3 from '@/public/images/portfolio3.png';
 import hyperledger1 from '@/public/images/hyperledger1.png';
 import hyperledger2 from '@/public/images/hyperledger2.png';
 import hyperledger3 from '@/public/images/hyperledger3.png';
+import capitalone1 from '@/public/images/c1-1.png';
+import capitalone2 from '@/public/images/c1-2.png';
+import capitalone3 from '@/public/images/c1-3.png';
 
 type ProjectData = Project[];
 
@@ -61,9 +64,22 @@ export const ProjectDetailData: ProjectData = [
         heading: 'This project was a part of my internship at CreativeHill Inc. I was responsible for the development of a web application that enables users to securely transact assets through a Hyperledger Fabric chaincode, irrespective of whether their assets are personal or corporate. I utilized Spring and Java based Hyperledger Fabric and customized chaincode for the program\'s unique purposes. I also created a comprehensive application Manual for those who are unfamiliar with Hyperledger Fabric.',
         descriptions: [    
         'Implemented a web application that enables users to securely transact assets through a Hyperledger Fabric chaincode, irrespective of whether their assets are personal or corporate.',
-            "Utilized Spring and Java based Hyperledger Fabric and customized chaincode for the program's unique purposes.",
-            'Created a comprehensive application Manual for those who are unfamiliar with Hyperledger Fabric.'
+        "Utilized Spring and Java based Hyperledger Fabric and customized chaincode for the program's unique purposes.",
+        'Created a comprehensive application Manual for those who are unfamiliar with Hyperledger Fabric.'
         ],
         url: 'https://github.com/jparkrighthere/HyperledgerFabric-Custom'
+    },
+    {
+        title: 'Capital One Full Stack Banking Application',
+        stack: ['Python', 'React', 'Plaid API'],
+        period: '2024.01',
+        type: 'Team Project',
+        imgUrl: [capitalone1, capitalone2, capitalone3],
+        heading: 'This project was a part of my internship at CreativeHill Inc. I was responsible for the development of a web application that enables users to securely transact assets through a Hyperledger Fabric chaincode, irrespective of whether their assets are personal or corporate. I utilized Spring and Java based Hyperledger Fabric and customized chaincode for the program\'s unique purposes. I also created a comprehensive application Manual for those who are unfamiliar with Hyperledger Fabric.',
+        descriptions: [    
+        'Conducted surveys among the users of the application provided by the company to collect feedback and identify areas for improvement.',
+        'Introduced statistical visuals to facilitate easy budget management and provide users with analysis of their spending habits',
+        'Utilized Python and Flask for backend development, and React with Vite for frontend development.'
+        ],
     }
 ]

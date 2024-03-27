@@ -15,7 +15,7 @@ export const AboutDetailData: AboutDetail = [
     {
         title: 'Frameworks & Libraries',
         id: 'skill',
-        content: 'Spring, React, React Native, Next.js, Node.js, Express.js, HTML, CSS, Tailwind CSS, Bootstrap, Jest',
+        content: 'Spring, React, React Native, Next.js, Node.js, Express.js, HTML, CSS, Tailwind CSS, Bootstrap, Jest, Flask',
     },
     {
         title: 'Tools & Technologies',
