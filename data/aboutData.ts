@@ -20,7 +20,7 @@ export const AboutDetailData: AboutDetail = [
     {
         title: 'Tools & Technologies',
         id: 'skill',
-        content: 'Git, GitHub, Docker, Azure, MySQL, Figma, Postman, RStudio, Jupyter Notebook, Hyperledger Fabric, Azure Cosmos DB',
+        content: 'Git/GitHub, Docker, Azure, MySQL, Figma, Postman, RStudio, Jupyter Notebook, Hyperledger Fabric, Azure Cosmos DB',
     }
 
 ];
