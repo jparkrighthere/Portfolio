@@ -81,7 +81,8 @@ export const ProjectDetailData: ProjectData = [
         descriptions: [    
         'Conducted surveys among the users of the application provided by the company to collect feedback and identify areas for improvement.',
         'Introduced statistical visuals to facilitate easy budget management and provide users with analysis of their spending habits',
-        'Utilized Python and Flask for backend development, and React with Vite for frontend development.'
+        'Utilized Python and Flask for backend development, and JavaScript and React for frontend development.',
         ],
+        url: 'https://github.com/jparkrighthere/C1_Banking_App'
     }
 ]
