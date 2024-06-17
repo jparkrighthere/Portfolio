@@ -5,9 +5,6 @@ import collegemate3 from '@/public/images/collegemate3.png';
 import portfolio1 from '@/public/images/portfolio1.png';
 import portfolio2 from '@/public/images/portfolio2.png';
 import portfolio3 from '@/public/images/portfolio3.png';
-import hyperledger1 from '@/public/images/hyperledger1.png';
-import hyperledger2 from '@/public/images/hyperledger2.png';
-import hyperledger3 from '@/public/images/hyperledger3.png';
 import capitalone1 from '@/public/images/c1-1.png';
 import capitalone2 from '@/public/images/c1-2.png';
 import capitalone3 from '@/public/images/c1-3.png';
@@ -58,22 +55,8 @@ export const ProjectDetailData: ProjectData = [
         url: 'https://github.com/jparkrighthere/Portfolio'
     },
     {
-        title: 'Hyperledger Fabric Asset Management System',
-        stack: ['Java', 'Spring', 'Hyperledger Fabric'],
-        period: '2023.06',
-        type: 'Internship Project',
-        imgUrl: [hyperledger1, hyperledger2, hyperledger3],
-        heading: 'This project was a part of my internship at CreativeHill Inc. I was responsible for the development of a web application that enables users to securely transact assets through a Hyperledger Fabric chaincode, irrespective of whether their assets are personal or corporate. I utilized Spring and Java based Hyperledger Fabric and customized chaincode for the program\'s unique purposes. I also created a comprehensive application Manual for those who are unfamiliar with Hyperledger Fabric.',
-        descriptions: [    
-        'Implemented a web application that enables users to securely transact assets through a Hyperledger Fabric chaincode, irrespective of whether their assets are personal or corporate.',
-        "Utilized Spring and Java based Hyperledger Fabric and customized chaincode for the program's unique purposes.",
-        'Created a comprehensive application Manual for those who are unfamiliar with Hyperledger Fabric.'
-        ],
-        url: 'https://github.com/jparkrighthere/HyperledgerFabric-Custom'
-    },
-    {
         title: 'Capital One Full Stack Banking Application',
-        stack: ['Python', 'React', 'Plaid API'],
+        stack: ['Python', 'Flask', 'JavaScript', 'React', 'MongoDB', 'Plaid API'],
         period: '2024.01',
         type: 'Team Project',
         imgUrl: [capitalone1, capitalone2, capitalone3, capitalone4, capitalone5],
