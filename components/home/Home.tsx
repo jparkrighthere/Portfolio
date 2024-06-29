@@ -32,7 +32,7 @@ const Home = () => {
                 </motion.h1>
                 <p className="text-l mt-10">An ambitious software developer eager to tackle challenges and continuously grow.</p>
                 <button className="mt-8 font-bold text-gray-500"  onClick={HandleDownload}>
-                👉Notion Portfolio 보러가기👈
+                👉Notion 포트폴리오 보러가기👈
                 </button>
             </div>
 
