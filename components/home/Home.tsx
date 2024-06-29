@@ -5,7 +5,7 @@ import { KeyboardDoubleArrowDown } from "@mui/icons-material";
 
 const Home = () => {
     const HandleDownload = () => {
-        const resumeFileUrl = "/files/Jeonghyeon_Park_Resume.pdf";
+        const resumeFileUrl = "https://fate-jackrabbit-af0.notion.site/9884cee1358645fca1ae12f5baf28da0?pvs=4";
         window.open(resumeFileUrl, "_blank");
     };
 
@@ -32,7 +32,7 @@ const Home = () => {
                 </motion.h1>
                 <p className="text-l mt-10">An ambitious software developer eager to tackle challenges and continuously grow.</p>
                 <button className="mt-8 text-gray-500"  onClick={HandleDownload}>
-                        Download Resume
+                👉Notion Portfolio 보러가기👈
                 </button>
             </div>
 
