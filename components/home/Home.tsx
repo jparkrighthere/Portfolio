@@ -5,7 +5,7 @@ import { KeyboardDoubleArrowDown } from "@mui/icons-material";
 
 const Home = () => {
     const HandleDownload = () => {
-        const resumeFileUrl = "https://fate-jackrabbit-af0.notion.site/9884cee1358645fca1ae12f5baf28da0?pvs=4";
+        const resumeFileUrl = "https://dashing-waltz-b8f.notion.site/d876c4b0018f4e00ac32d93b5b19e3b7";
         window.open(resumeFileUrl, "_blank");
     };
 
