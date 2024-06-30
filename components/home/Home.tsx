@@ -10,8 +10,8 @@ const Home = () => {
     };
 
     return (
-        <section id="home" className="container flex flex-col items-center justify-center h-screen">
-            <div className="container flex flex-col items-center justify-center">
+        <section id="home" className="relative flex flex-col items-center justify-center h-screen">
+            <div className="flex flex-col items-center justify-center">
                 <h1 className="text-5xl mb-10">
                     <Typewriter words={["Hello, I'm"]} />
                 </h1>
@@ -31,8 +31,8 @@ const Home = () => {
                     />
                 </motion.h1>
                 <p className="text-l mt-10">An ambitious software developer eager to tackle challenges and continuously grow.</p>
-                <button className="mt-8 font-bold text-gray-500"  onClick={HandleDownload}>
-                👉Notion 포트폴리오 보러가기👈
+                <button className="mt-8 font-bold text-gray-500" onClick={HandleDownload}>
+                    👉 Notion 포트폴리오 보러가기 👈
                 </button>
             </div>
 
@@ -46,8 +46,7 @@ const Home = () => {
                 </motion.div>
             </div>
         </section>
-    )
+    );
 }
 
 export default Home;
-
